@@ -15,3 +15,9 @@
 .card-img-top {
     border-radius: .25rem .25rem 0 0;
 }
+
+/* Back to Top */
+.back-to-top {
+	display: none;
+	bottom: 2.6rem;
+}

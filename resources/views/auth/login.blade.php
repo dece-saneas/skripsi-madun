@@ -24,7 +24,7 @@
     <div class="login-box">
         <!-- /.login-logo -->
         <div class="login-logo">
-            <a href="{{ route('home') }}"><img src="{{ asset('logo.png') }}" alt="logo.png" height="80px;" class="rounded mb-2"></a>
+            <a href="javascript:void(0)"><img src="{{ asset('logo.png') }}" alt="logo.png" height="80px;" class="rounded mb-2"></a>
         </div>
         <div class="card">
             <div class="card-body">

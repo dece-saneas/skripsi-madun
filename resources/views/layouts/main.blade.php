@@ -32,15 +32,20 @@
         @include('layouts.sidebar')
         <!-- Content Wrapper -->
         @yield('content')
+		<a id="back-to-top" href="javascript:void(0)" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top" >
+			<i class="fas fa-chevron-up"></i>
+		</a>
         <!-- Main Footer -->
         @include('layouts.footer')
     </div>
     
 <!-- jQuery -->
 <script src="{{ asset('js/jquery.min.js') }}"></script>
-<!-- Bootstrap 4 -->
+<!-- Bootstrap 4.6 -->
 <script src="{{ asset('js/bootstrap.bundle.min.js')}}"></script>
-<!-- AdminLTE App -->
+<!-- Adminlte Script -->
 <script src="{{ asset('js/adminlte.min.js') }}"></script>
+<!-- Custom Script -->
+<script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>
