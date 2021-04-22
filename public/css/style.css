@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* Navbar */
+.nav-user-img {
+    height: 40px;
+}
+.nav-user-name, .nav-user-img {
+    margin-right: 1rem;
+}
+
+/* Fix Card Image Corner */
+.card-img-top {
+    border-radius: .25rem .25rem 0 0;
+}
