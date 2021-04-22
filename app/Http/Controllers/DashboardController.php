@@ -27,6 +27,7 @@ class DashboardController extends Controller
         // $user = Auth::user();
         // $user->assignRole('Customer');
         
+		// session()->flash('info', 'Task was successful!');
         return view('dashboard');
     }
 }

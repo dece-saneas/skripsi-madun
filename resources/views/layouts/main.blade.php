@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('css/fontawesome.min.css') }}">
+    <!-- Sweetalert 2 -->
+    <link rel="stylesheet" href="{{ asset('css/sweetalert2.min.css') }}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('css/adminlte.min.css') }}">
     <!-- Custom style -->
@@ -43,9 +45,32 @@
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <!-- Bootstrap 4.6 -->
 <script src="{{ asset('js/bootstrap.bundle.min.js')}}"></script>
+<!-- Sweetalert 2 -->
+<script src="{{ asset('js/sweetalert2.min.js')}}"></script>
 <!-- Adminlte Script -->
 <script src="{{ asset('js/adminlte.min.js') }}"></script>
 <!-- Custom Script -->
 <script src="{{ asset('js/script.js') }}"></script>
+<!-- Alert -->
+@php ($alert = ['success', 'info', 'error', 'warning', 'question'])
+@foreach ($alert as $type)
+@if(session()->has($type))
+<script>
+	$(function() {
+		var Toast = Swal.mixin({
+			toast: true,
+			position: 'top-end',
+			showConfirmButton: false,
+			timer: 2000
+		});
+		
+		Toast.fire({
+			icon: '{{ $type }}',
+			title: '{{ session($type) }}'
+		});
+	});
+</script>
+@endif
+@endforeach
 </body>
 </html>
