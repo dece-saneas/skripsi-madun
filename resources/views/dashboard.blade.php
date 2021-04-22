@@ -35,7 +35,10 @@
                         <div class="card-body">
                             <h5 class="card-title mb-2"><strong>Tiket Umroh</strong></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue suscipit tempor. Etiam sem nunc, venenatis at tristique vel, ornare.</p>
-                            <button type="button" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket mr-2"></i>AQUA 1500ml</button>
+							<div class="btn-group" role="group">
+								<a href="javascript:void(0)" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket"></i></a>
+								<a href="javascript:void(0)" class="btn btn-sm btn-dark">AQUA 1500ml</a>
+							</div>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
@@ -59,7 +62,10 @@
                         <div class="card-body">
                             <h5 class="card-title mb-2"><strong>Honda Scoopy</strong></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue suscipit tempor. Etiam sem nunc, venenatis at tristique vel, ornare.</p>
-                            <button type="button" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket mr-2"></i>Levite 500ml</button>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket"></i></button>
+								<button type="button" class="btn btn-sm btn-dark">Levite 500ml</button>
+							</div>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
@@ -83,7 +89,10 @@
                         <div class="card-body">
                             <h5 class="card-title mb-2"><strong>Cashback Rp 500.000</strong></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue suscipit tempor. Etiam sem nunc, venenatis at tristique vel, ornare.</p>
-                            <button type="button" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket mr-2"></i>VIT 600ml</button>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket"></i></button>
+								<button type="button" class="btn btn-sm btn-dark">VIT 600ml</button>
+							</div>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
@@ -107,7 +116,10 @@
                         <div class="card-body">
                             <h5 class="card-title mb-2"><strong>Cashback Rp 300.000</strong></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue suscipit tempor. Etiam sem nunc, venenatis at tristique vel, ornare.</p>
-                            <button type="button" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket mr-2"></i>Mizone 500ml</button>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket"></i></button>
+								<button type="button" class="btn btn-sm btn-dark">Mizone 500ml</button>
+							</div>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
