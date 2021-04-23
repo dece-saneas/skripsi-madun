@@ -21,7 +21,7 @@
     </div>
     <!-- Main content -->
     <div class="content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="jumbotron jumbotron-fluid p-4 bg-transparent">
                 <div class="container text-center">
                     <h1 class="display-4">Available Reward</h1>
@@ -29,21 +29,19 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100">
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 card-reward">
                         <img src="{{ asset('img/rewards/1.jpg') }}" class="card-img-top" alt="Reward Image">
                         <div class="card-body">
                             <h5 class="card-title mb-2"><strong>Tiket Umroh</strong></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue suscipit tempor. Etiam sem nunc, venenatis at tristique vel, ornare.</p>
-							<div class="btn-group" role="group">
-								<a href="javascript:void(0)" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket"></i></a>
-								<a href="javascript:void(0)" class="btn btn-sm btn-dark">AQUA 1500ml</a>
-							</div>
+                            <a href="#" class="badge badge-primary mr-1">AQUA</a>
+                            <a href="#" class="badge badge-primary mr-1">1500ml</a>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
                                 <div class="progress-group">
-                                    Progress
+                                    <span>20%</span>
                                     <span class="float-right"><b>1000</b>/5000</span>
                                     <div class="progress">
                                         <div class="progress-bar bg-primary" style="width: 20%"></div>
@@ -51,26 +49,24 @@
                                 </div>
                             </li>
                         </ul>
-                        <div class="card-footer text-center">
-                            <h6 class="m-0">Periode 1 April - 31 Mei</h6>
+                        <div class="card-body font-italic">
+                            <h6 class="m-0 text-muted">Periode 1 April - 31 Mei</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100">
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 card-reward">
                         <img src="{{ asset('img/rewards/2.jpg') }}" class="card-img-top" alt="Reward Image">
                         <div class="card-body">
                             <h5 class="card-title mb-2"><strong>Honda Scoopy</strong></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue suscipit tempor. Etiam sem nunc, venenatis at tristique vel, ornare.</p>
-							<div class="btn-group" role="group">
-								<button type="button" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket"></i></button>
-								<button type="button" class="btn btn-sm btn-dark">Levite 500ml</button>
-							</div>
+                            <a href="#" class="badge badge-primary mr-1">Levite</a>
+                            <a href="#" class="badge badge-primary mr-1">500ml</a>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
                                 <div class="progress-group">
-                                    Progress
+                                    <span>0%</span>
                                     <span class="float-right"><b>0</b>/10000</span>
                                     <div class="progress">
                                         <div class="progress-bar bg-primary" style="width: 0%"></div>
@@ -78,26 +74,24 @@
                                 </div>
                             </li>
                         </ul>
-                        <div class="card-footer text-center">
-                            <h6 class="m-0">Periode : 1 April - 31 Mei</h6>
+                        <div class="card-body font-italic">
+                            <h6 class="m-0 text-muted">Periode : 1 April - 31 Mei</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100">
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 card-reward">
                         <img src="{{ asset('img/rewards/3.jpg') }}" class="card-img-top" alt="Reward Image">
                         <div class="card-body">
                             <h5 class="card-title mb-2"><strong>Cashback Rp 500.000</strong></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue suscipit tempor. Etiam sem nunc, venenatis at tristique vel, ornare.</p>
-							<div class="btn-group" role="group">
-								<button type="button" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket"></i></button>
-								<button type="button" class="btn btn-sm btn-dark">VIT 600ml</button>
-							</div>
+                            <a href="#" class="badge badge-primary mr-1">VIT</a>
+                            <a href="#" class="badge badge-primary mr-1">600ml</a>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
                                 <div class="progress-group">
-                                    Progress
+                                    <span>10%</span>
                                     <span class="float-right"><b>300</b>/3000</span>
                                     <div class="progress">
                                         <div class="progress-bar bg-primary" style="width: 10%"></div>
@@ -105,26 +99,24 @@
                                 </div>
                             </li>
                         </ul>
-                        <div class="card-footer text-center">
-                            <h6 class="m-0">Periode 1 April - 31 Mei</h6>
+                        <div class="card-body font-italic">
+                            <h6 class="m-0 text-muted">Periode 1 April - 31 Mei</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100">
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 card-reward">
                         <img src="{{ asset('img/rewards/4.jpg') }}" class="card-img-top" alt="Reward Image">
                         <div class="card-body">
                             <h5 class="card-title mb-2"><strong>Cashback Rp 300.000</strong></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue suscipit tempor. Etiam sem nunc, venenatis at tristique vel, ornare.</p>
-							<div class="btn-group" role="group">
-								<button type="button" class="btn btn-sm btn-dark"><i class="fas fa-shopping-basket"></i></button>
-								<button type="button" class="btn btn-sm btn-dark">Mizone 500ml</button>
-							</div>
+                            <a href="#" class="badge badge-primary mr-1">Mizone</a>
+                            <a href="#" class="badge badge-primary mr-1">500ml</a>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
                                 <div class="progress-group">
-                                    Progress
+                                    <span>67%</span>
                                     <span class="float-right"><b>2000</b>/3000</span>
                                     <div class="progress">
                                         <div class="progress-bar bg-primary" style="width: 66.66666666666667%"></div>
@@ -132,8 +124,8 @@
                                 </div>
                             </li>
                         </ul>
-                        <div class="card-footer text-center">
-                            <h6 class="m-0">Periode 1 April - 31 Mei</h6>
+                        <div class="card-body font-italic">
+                            <h6 class="m-0 text-muted">Periode 1 April - 31 Mei</h6>
                         </div>
                     </div>
                 </div>
