@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{{ asset('css/adminlte.min.css') }}">
     <!-- Custom style -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    @yield('style')
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('logo.png') }}">
 </head>
@@ -51,6 +52,7 @@
 <script src="{{ asset('js/adminlte.min.js') }}"></script>
 <!-- Custom Script -->
 <script src="{{ asset('js/script.js') }}"></script>
+@yield('script')
 <!-- Alert -->
 @php ($alert = ['success', 'info', 'error', 'warning', 'question'])
 @foreach ($alert as $type)
