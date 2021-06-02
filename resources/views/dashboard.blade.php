@@ -36,6 +36,7 @@
                             <h5 class="card-title mb-2"><strong>Tiket Umroh</strong></h5>
                             <p class="card-text text-sm">Ayo perbanyak transaksi pembelian produk <strong>VIT 25ml</strong> dan dapatkan Tiket Umroh tanpa di undi.</p>
                         </div>
+                        @role('Customer')
                         <div class="card-body p-0">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
@@ -52,6 +53,7 @@
                         <div class="card-footer">
                             <button class="btn  btn-sm btn-light btn-block" disabled>Claim Reward</button>
                         </div>
+                        @endrole
                     </div>
                 </div>                
                 <div class="col-md-4 mb-4">
@@ -61,6 +63,7 @@
                             <h5 class="card-title mb-2"><strong>Honda Scoopy</strong></h5>
                             <p class="card-text text-sm">Ayo perbanyak transaksi pembelian produk <strong>AQUA 300ml</strong> dan dapatkan Honda Scoopy tanpa di undi.</p>
                         </div>
+                        @role('Customer')
                         <div class="card-body p-0">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
@@ -77,6 +80,7 @@
                         <div class="card-footer">
                             <button class="btn  btn-sm btn-light btn-block" disabled>Claim Reward</button>
                         </div>
+                        @endrole
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
@@ -86,6 +90,7 @@
                             <h5 class="card-title mb-2"><strong>Cashback 500rb</strong></h5>
                             <p class="card-text text-sm">Ayo perbanyak transaksi pembelian produk <strong>AQUA 300ml</strong> dan dapatkan Honda Scoopy tanpa di undi.</p>
                         </div>
+                        @role('Customer')
                         <div class="card-body p-0">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
@@ -102,6 +107,7 @@
                         <div class="card-footer">
                             <button class="btn  btn-sm btn-light btn-block" disabled>Claim Reward</button>
                         </div>
+                        @endrole
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
@@ -111,6 +117,7 @@
                             <h5 class="card-title mb-2"><strong>Cashback 500rb</strong></h5>
                             <p class="card-text text-sm">Ayo perbanyak transaksi pembelian produk <strong>AQUA 300ml</strong> dan dapatkan Honda Scoopy tanpa di undi.</p>
                         </div>
+                        @role('Customer')
                         <div class="card-body p-0">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
@@ -127,6 +134,7 @@
                         <div class="card-footer">
                             <button class="btn  btn-sm btn-success btn-block">Claim Reward</button>
                         </div>
+                        @endrole
                     </div>
                 </div>
             </div>

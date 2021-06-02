@@ -15,7 +15,8 @@ Route::get('/', 'DashboardController@index')->name('dashboard');
 
 Auth::routes();
 
-Route::prefix('user')->group(function () {
-    Route::get('/profile', 'AccountController@index')->name('profile');
-    Route::put('/profile', 'AccountController@update')->name('profile.update');
+Route::prefix('profile')->group(function () {
+    Route::get('/', 'AccountController@index')->name('profile');
+    Route::put('/update', 'AccountController@update')->name('profile.update');
+    Route::put('/change-password', 'AccountController@change_password')->name('profile.change.password');
 });

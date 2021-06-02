@@ -17,11 +17,11 @@
     <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
             <a class="nav-link p-0" data-toggle="dropdown" href="javascript:void(0)">
-                <img src="{{ asset('img/users/'.Auth::user()->photo) }}" class="img-circle nav-user-img" alt="User Image" onerror="this.onerror=null;this.src='{{ asset('img/users/placeholder.jpg') }}';"><span class="nav-user-name">Customer</span>
+                <img src="{{ asset('img/users/'.Auth::user()->photo) }}" class="img-circle nav-user-img" alt="User Image" onerror="this.onerror=null;this.src='{{ asset('img/users/placeholder.jpg') }}';"><span class="nav-user-name">{{ Auth::user()->name }}</span>
             </a>
             <div class="dropdown-menu">
                 <a href="{{ route('profile') }}" class="dropdown-item">Profile</a>
-                <a href="#" class="dropdown-item">Change Password</a>
+                <a href="#" class="dropdown-item" data-toggle="modal" data-target="#Modal">Change Password</a>
                 <div class="dropdown-divider"></div>
                 <a href="{{ route('logout') }}" class="dropdown-item" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                     <span>Logout</span>

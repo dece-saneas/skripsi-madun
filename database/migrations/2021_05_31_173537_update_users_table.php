@@ -14,10 +14,10 @@ class UpdateUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('photo')->after('password')->nullable();
-            $table->string('phone')->after('photo');
-            $table->string('store_name')->after('phone');
-            $table->text('address')->after('store_name');
+            $table->string('photo', 50)->after('password')->nullable();
+            $table->string('phone', 25)->after('photo')->nullable();
+            $table->string('store_name', 50)->after('phone')->nullable();
+            $table->text('address')->after('store_name')->nullable();
         });
     }
 
@@ -30,6 +30,9 @@ class UpdateUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->dropColumn('photo');
+            $table->dropColumn('phone');
+            $table->dropColumn('store_name');
+            $table->dropColumn('address');
         });
     }
 }

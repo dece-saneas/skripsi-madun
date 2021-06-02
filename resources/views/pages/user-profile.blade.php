@@ -29,7 +29,8 @@
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut.</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
+                @role('Customer')
                 <div class="col-md-4">
                     <div class="card card-primary">
                         <div class="card-header">
@@ -43,6 +44,7 @@
                         </div>
                     </div>
                 </div>
+                @endrole
                 <div class="col-md-4">
                     <div class="card card-primary card-outline">
                         <div class="card-body box-profile">
@@ -97,8 +99,8 @@
                                     <label for="password">Confirm Password</label>
                                     <input type="password" class="form-control form-control-sm" id="password-confirm" name="password_confirmation" autocomplete="new-password">
                                 </div>
-                                <div class="form-group text-right">
-                                    <button type="submit" class="btn btn-primary">Update</button>
+                                <div class="form-group text-right mb-0">
+                                    <button type="submit" class="btn btn-primary"><i class="fas fa-save mr-2"></i>Save</button>
                                 </div>
                             </div>
                             </form>

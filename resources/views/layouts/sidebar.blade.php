@@ -15,17 +15,24 @@
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li class="nav-header">ORDERS</li>
+                <li class="nav-header">PRODUCTS</li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-store"></i>
-                        <p>Order Product</p>
+                        <p>All Product</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-history"></i>
                         <p>History</p>
+                    </a>
+                </li>
+                <li class="nav-header">REWARDS</li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-gift"></i>
+                        <p>My Rewards</p>
                     </a>
                 </li>
             </ul>

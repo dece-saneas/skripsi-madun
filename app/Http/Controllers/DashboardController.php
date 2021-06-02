@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-// use Auth;
+use Auth;
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
 
 class DashboardController extends Controller
 {
@@ -24,10 +26,14 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        // $user = Auth::user();
-        // $user->assignRole('Customer');
+       // $role = Role::create(['name' => 'Customer']);
+       // $role = Role::create(['name' => 'Admin CRO']);
+       // $role = Role::create(['name' => 'Admin Gudang']);
+       // $role = Role::create(['name' => 'Manager']);
         
-		// session()->flash('info', 'Task was successful!');
+       // $user = Auth::user();
+       // $user->assignRole('Customer');
+        
         return view('dashboard');
     }
 }
